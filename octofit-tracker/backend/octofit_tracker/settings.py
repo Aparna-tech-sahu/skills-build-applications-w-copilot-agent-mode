@@ -134,3 +134,6 @@ CORS_ALLOW_METHODS = [
 CORS_ALLOW_HEADERS = [
     "content-type", "authorization"
 ]
+
+# Add the codespace Django REST API endpoint suffix
+CODESPACE_API_SUFFIX = "https://refactored-palm-tree-5grqgwp5jj7wfv7j6-8000.app.github.dev"
