@@ -24,5 +24,5 @@ class WorkoutViewSet(viewsets.ModelViewSet):
     serializer_class = WorkoutSerializer
 
 def get_codespace_url(request):
-    codespace_url = "https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev"
+    codespace_url = "https://refactored-palm-tree-5grqgwp5jj7wfv7j6-8000.app.github.dev"
     return JsonResponse({"codespace_url": codespace_url})
